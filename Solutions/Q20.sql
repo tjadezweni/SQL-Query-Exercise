@@ -1,0 +1,1 @@
+SELECT ShipPostalCode, OrderID, OrderDate FROM Orders WHERE ShipPostalCode LIKE '02389%' 

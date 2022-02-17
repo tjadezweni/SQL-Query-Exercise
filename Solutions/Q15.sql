@@ -1,0 +1,1 @@
+SELECT FirstName, LastName From Employees WHERE ReportsTo IS NOT NULL;

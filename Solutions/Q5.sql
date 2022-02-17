@@ -1,0 +1,1 @@
+SELECT CompanyName, Fax, Phone, HomePage, Country FROM Suppliers ORDER BY Country DESC, CompanyName ASC;

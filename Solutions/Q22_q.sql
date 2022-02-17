@@ -1,0 +1,1 @@
+SELECT FirstName, LastName, City, Region FROM Employees WHERE NOT City='Seattle' AND Region='WA'

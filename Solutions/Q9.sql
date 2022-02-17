@@ -1,0 +1,1 @@
+SELECT FirstName, LastName, Country FROM Employees WHERE NOT Country='USA';

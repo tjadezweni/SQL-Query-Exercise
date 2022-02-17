@@ -1,0 +1,1 @@
+SELECT CompanyName FROM Suppliers INNER JOIN Products ON Suppliers.SupplierID=Products.SupplierID WHERE Products.CategoryID=8

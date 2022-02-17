@@ -1,0 +1,1 @@
+SELECT * FROM Orders WHERE Freight > 500.00;

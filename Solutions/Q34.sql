@@ -1,0 +1,1 @@
+SELECT ProductName, SUM(Quantity) AS TotalUnits FROM Products INNER JOIN [Order Details] ON Products.ProductID=[Order Details].ProductID  GROUP BY ProductName HAVING SUM(Quantity) < 200

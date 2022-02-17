@@ -1,0 +1,1 @@
+SELECT UnitsInStock, UnitPrice, UnitsInStock*UnitPrice AS TotalPriceNormal, Ceiling(UnitsInStock*UnitPrice) AS TotalPriceRoundUp, FLOOR(UnitsInStock*UnitPrice) AS TotalPriceRoundDown FROM Products ORDER BY TotalPriceNormal DESC

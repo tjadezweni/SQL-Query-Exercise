@@ -1,0 +1,1 @@
+SELECT OrderID, FirstName, LastName FROM Orders INNER JOIN Employees ON Orders.EmployeeID=Employees.EmployeeID WHERE ShippedDate > RequiredDate

@@ -1,0 +1,1 @@
+SELECT ProductName FROM Products Inner Join Categories ON Products.CategoryID=Categories.CategoryID WHERE CategoryName='Seafood'

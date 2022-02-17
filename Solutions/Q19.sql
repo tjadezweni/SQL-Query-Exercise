@@ -1,0 +1,1 @@
+SELECT ProductName, Products.SupplierID, CompanyName FROM Products INNER JOIN Suppliers ON Products.SupplierID=Suppliers.SupplierID WHERE CompanyName='Exotic Liquids' OR CompanyName='Grandma Kelly''s Homestead' OR CompanyName='Tokyo Traders';

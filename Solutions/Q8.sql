@@ -1,0 +1,1 @@
+SELECT OrderDate, ShippedDate, CustomerID, Freight FROM Orders WHERE OrderDate='May 19, 1997'; 

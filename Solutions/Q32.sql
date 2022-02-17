@@ -1,0 +1,1 @@
+SELECT CompanyName FROM Suppliers INNER JOIN Products ON Suppliers.SupplierID=Products.SupplierID INNER JOIN Categories ON Categories.CategoryID=Products.CategoryID WHERE Categories.CategoryName='Seafood'

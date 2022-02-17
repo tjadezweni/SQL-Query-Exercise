@@ -1,0 +1,1 @@
+SELECT Lower(ContactTitle) AS ContactTitle FROM Customers

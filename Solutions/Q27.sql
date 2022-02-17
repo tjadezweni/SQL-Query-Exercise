@@ -1,0 +1,1 @@
+SELECT FirstName, LastName, DATENAME(month, BirthDate) AS Month FROM Employees WHERE DATENAME(month, BirthDate)=DATENAME(month, GETDATE());

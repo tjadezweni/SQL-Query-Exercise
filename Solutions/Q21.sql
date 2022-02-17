@@ -1,0 +1,1 @@
+SELECT ContactName, ContactTitle, CompanyName FROM Customers WHERE NOT ContactTitle LIKE '%Sales%'

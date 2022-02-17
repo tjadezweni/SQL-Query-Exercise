@@ -1,0 +1,1 @@
+SELECT CompanyName, ContactTitle, City, Country FROM Customers WHERE Country='Mexico' OR (Country='Spain' AND NOT City='Madrid')

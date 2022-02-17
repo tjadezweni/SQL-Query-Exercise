@@ -1,0 +1,1 @@
+SELECT FirstName + ' ' + LastName + ' can be reached at x' + Extension + '.' AS ContactInfo FROM Employees
